@@ -9,11 +9,11 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getUsers() {
-    return this.http.get('https://jsonplaceholder.typicode.com/users');
+    return this.http.get('http://localhost:9601/v1/users');
   }
 
   getUser(userId: string) {
-    return this.http.get('https://jsonplaceholder.typicode.com/users/' + userId);
+    return this.http.get('http://localhost:9601/v1/users/' + userId);
   }
 
   getPosts() {
