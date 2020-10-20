@@ -1,5 +1,5 @@
 {
-  "name": "angular-api-userblog",
+  "name": "user-post-platform",
   "version": "0.1.0",
   "scripts": {
     "ng": "ng",
